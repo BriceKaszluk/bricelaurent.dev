@@ -19,20 +19,16 @@ export function AnimatedSection({
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-      variants={{
-        ...fadeInUp,
-        visible: {
-          ...fadeInUp.visible,
-          transition: { ...fadeInUp.visible.transition, delay },
-        },
-      }}
-      className={className}
-    >
-      {children}
-    </motion.div>
+<motion.div
+  ref={ref}
+  initial="hidden"
+  animate={isInView ? "visible" : "hidden"}
+  variants={fadeInUp}
+  custom={delay}
+  className={className}
+>
+  {children}
+</motion.div>
+
   );
 }
