@@ -17,7 +17,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://brice-laurent-dev.vercel.app"),
+  metadataBase: new URL("https://bricelaurent-dev.vercel.app"),
   title: {
     default:
       "Brice Laurent - Développeur Web Freelance Savoie | Sites pour Artisans & TPE",

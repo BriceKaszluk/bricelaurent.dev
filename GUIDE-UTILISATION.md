@@ -115,12 +115,12 @@ Par défaut, Resend utilise l'adresse `onboarding@resend.dev` pour envoyer les e
 5. Vercel détectera automatiquement Next.js
 6. **Important** : Dans **Environment Variables**, ajoutez :
    - `RESEND_API_KEY` = votre clé Resend
-   - `NEXT_PUBLIC_SITE_URL` = https://brice-laurent-dev.vercel.app (ou votre domaine)
+   - `NEXT_PUBLIC_SITE_URL` = https://bricelaurent-dev.vercel.app (ou votre domaine)
 7. Cliquez sur **Deploy**
 
 ### Étape 3 : Configuration du domaine
 
-**Par défaut**, votre site sera accessible sur : `brice-laurent-dev.vercel.app`
+**Par défaut**, votre site sera accessible sur : `bricelaurent-dev.vercel.app`
 
 **Pour utiliser un domaine personnalisé** (ex: `brice-laurent.fr`) :
 
